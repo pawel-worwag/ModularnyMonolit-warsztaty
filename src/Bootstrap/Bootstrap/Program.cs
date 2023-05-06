@@ -1,9 +1,12 @@
+using Bootstrap;
 using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var app = builder.Build();
+builder.LoadModules();
 
+var app = builder.Build();
+app.UseModules();
 app.UseRouting();
 app.UseEndpoints(endpoints =>
 {
