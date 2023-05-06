@@ -7,5 +7,5 @@ public interface IModule
 {
     public string Name { get; init; }
     public IServiceCollection Register(IServiceCollection services);
-    public  WebApplication Use( WebApplication app);
+    public WebApplication Use(WebApplication app);
 }

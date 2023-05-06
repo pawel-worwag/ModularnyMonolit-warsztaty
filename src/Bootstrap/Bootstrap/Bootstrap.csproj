@@ -7,14 +7,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.2" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.2"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Modules\Auth\Modules.Auth.Api\Modules.Auth.Api.csproj" />
-      <ProjectReference Include="..\..\Modules\Mail\Modules.Mail.Api\Modules.Mail.Api.csproj" />
-      <ProjectReference Include="..\..\Shared\Shared.Infrastructure\Shared.Infrastructure.csproj" />
+        <ProjectReference Include="..\..\Modules\Auth\Modules.Auth.Api\Modules.Auth.Api.csproj"/>
+        <ProjectReference Include="..\..\Modules\Mail\Modules.Mail.Api\Modules.Mail.Api.csproj"/>
+        <ProjectReference Include="..\..\Shared\Shared.Infrastructure\Shared.Infrastructure.csproj"/>
     </ItemGroup>
 
 </Project>

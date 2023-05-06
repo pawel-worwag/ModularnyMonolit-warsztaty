@@ -7,6 +7,7 @@ namespace Modules.Mail.Api;
 public class Module : IModule
 {
     public string Name { get; init; } = "MailModule";
+
     public IServiceCollection Register(IServiceCollection services)
     {
         Console.WriteLine($"Register: {Name}");

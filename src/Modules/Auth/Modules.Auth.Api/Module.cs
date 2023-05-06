@@ -7,6 +7,7 @@ namespace Modules.Auth.Api;
 public class Module : IModule
 {
     public string Name { get; init; } = "AuthModule";
+
     public IServiceCollection Register(IServiceCollection services)
     {
         Console.WriteLine($"Register: {Name}");
