@@ -11,4 +11,10 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\Modules\Auth\Modules.Auth.Api\Modules.Auth.Api.csproj" />
+      <ProjectReference Include="..\..\Modules\Mail\Modules.Mail.Api\Modules.Mail.Api.csproj" />
+      <ProjectReference Include="..\..\Shared\Shared.Infrastructure\Shared.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>
