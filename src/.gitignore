@@ -1,0 +1,6 @@
+bin/
+obj/
+.idea/
+[aA]ppsettings.[dD]evelopment.json
+.DS_Store
+Properties/
