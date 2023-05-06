@@ -3,7 +3,7 @@ using Shared.Abstraction.Modules;
 
 namespace Bootstrap;
 
-internal static class MopdulesLoader
+internal static class ModulesLoader
 {
     private static List<IModule> _modules = new List<IModule>();
     public static WebApplicationBuilder LoadModules(this WebApplicationBuilder builder)
